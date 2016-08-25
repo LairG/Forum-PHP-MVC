@@ -1,0 +1,1 @@
+create view produitCart as select c.contenu, c.date_contenu, u.id_user, i.id_topic from contenu c, user u, topic i

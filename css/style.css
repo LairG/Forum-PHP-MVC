@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 nov. 2015, 11:32:35
+    Author     : formation
+*/
+
+body{
+    padding-top: 70px;
+    width: 1000px;
+    height: auto;
+    text-align: justify; 
+    margin : auto;
+    padding-bottom: 70px;
+    font-family: "Aubrey";
+    font-size: 17px;
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+}
+
+
+#divheader {
+    text-align: center;
+}
+
+#headerh1{
+    text-align: center;
+}
+
+ul li
+{
+    list-style-image: none;
+    display: inline;
+    margin-left: 50px;
+}
+
+footer
+{
+    margin-bottom: 10px;
+}
+
+#tabPost
+{
+    border: 1px solid black;
+    width: 700px;
+    margin-left: 20%;
+}
+
+#theadPost{
+    background-color: silver;
+}
+
+.rightPost{
+    text-align: right;
+}
+
+.centerPost{
+    text-align: center;
+}
+
+.navbar navbar-default navbar-static {
+    margin-top: 10px;
+}
+
+//Fil d'ariane
+.breadcrumb {
+    text-align: left;
+}
+
+//Footer
+ 
+
+//Formulaire Post de la page post.php
+.form-control {
+width: 100px;
+}
+#post-detailsxxx { 
+width: 350px;
+}
+//Div select de la pagination de la page post.php
+
+.transition {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+

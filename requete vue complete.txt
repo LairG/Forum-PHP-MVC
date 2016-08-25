@@ -1,0 +1,6 @@
+ALTER TABLE `forum`.`user` 
+ADD COLUMN `mdphash` VARCHAR(64) NOT NULL AFTER `pseudo`,
+ADD COLUMN `nais` DATE NOT NULL AFTER `mdphash`,
+ADD COLUMN `tel` VARCHAR(10) NOT NULL AFTER `nais`,
+ADD COLUMN `email` VARCHAR(45) NOT NULL AFTER `tel`,
+ADD COLUMN `profil` INT(1) NOT NULL AFTER `email`
